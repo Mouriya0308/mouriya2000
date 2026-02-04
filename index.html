@@ -121,7 +121,7 @@ button {
 <body>
 
 <audio id="valentineMusic" loop>
-    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    <source src="song.mp3" type="audio/mpeg">
 </audio>
 
 <div class="card">
@@ -164,7 +164,7 @@ const defaultData = {
     proposal: "Will you be my forever valentine....❤️?",
     celebration: "YAY! My heart just skipped a beat !! I Love You💘🎉",
     image: "hug.gif",
-    music: "_En_Viral_Idukula_Un_Viral_Tamil_Love_Song_Ringtone_(by Fringster.com).mp3"
+    music: "song.mp3"
 };
 
 const data = JSON.parse(localStorage.getItem("valentineData")) || defaultData;
@@ -242,4 +242,5 @@ yesBtn.addEventListener("click", () => {
 </script>
 
 </body>
+
 </html>
